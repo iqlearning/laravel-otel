@@ -1,5 +1,5 @@
 {
-    "name": "antigravity/laravel-otel",
+    "name": "iqlearning/laravel-otel",
     "description": "Laravel integration for OpenTelemetry with dual exporters (Jaeger & Zipkin) using JSON protocol",
     "type": "library",
     "keywords": [
@@ -15,8 +15,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Antigravity",
-            "email": "dev@antigravity.dev"
+            "name": "Iqlearning",
+            "email": "Iqlearning@gmail.com"
         }
     ],
     "require": {
@@ -34,21 +34,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Antigravity\\LaravelOtel\\": "src/"
+            "Iqlearning\\LaravelOtel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Antigravity\\LaravelOtel\\Tests\\": "tests/"
+            "Iqlearning\\LaravelOtel\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Antigravity\\LaravelOtel\\OpenTelemetryServiceProvider"
+                "Iqlearning\\LaravelOtel\\OpenTelemetryServiceProvider"
             ]
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
+
