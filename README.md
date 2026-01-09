@@ -15,24 +15,23 @@ A Laravel package providing OpenTelemetry integration with dual exporters for Ja
 -   ✅ **Easy Configuration**: Environment-based configuration
 -   ✅ **Laravel Integration**: Native Laravel service provider
 
-## Requirements
+## Disclaimer
 
--   PHP 8.1 or higher
--   Laravel 10.0 or 11.0
--   OpenTelemetry PHP Extension (for auto-instrumentation)
+-   Made with Google Antigravity
+-   Be extra cautious using this package for possible security vulnerability
 
 ## Installation
 
 ### 1. Install via Composer
 
 ```bash
-composer require antigravity/laravel-otel
+composer require iqlearning/laravel-otel
 ```
 
 ### 2. Publish Configuration
 
 ```bash
-php artisan vendor:publish --provider="Antigravity\LaravelOtel\OpenTelemetryServiceProvider"
+php artisan vendor:publish --provider="Iqlearning\LaravelOtel\OpenTelemetryServiceProvider"
 ```
 
 This will publish the `config/opentelemetry.php` configuration file.
@@ -179,3 +178,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Support
 
 For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/antigravity/laravel-otel).
+
