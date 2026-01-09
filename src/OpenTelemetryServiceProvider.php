@@ -1,6 +1,6 @@
 <?php
 
-namespace Antigravity\LaravelOtel;
+namespace Iqlearning\LaravelOtel;
 
 use Illuminate\Support\ServiceProvider;
 use OpenTelemetry\API\Trace\TracerInterface;
@@ -162,3 +162,4 @@ class OpenTelemetryServiceProvider extends ServiceProvider
         );
     }
 }
+
